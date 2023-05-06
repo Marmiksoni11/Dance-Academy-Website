@@ -1,0 +1,116 @@
+
+.container{
+    min-height:71vh;
+
+    /* to center the form undo the below comments along with "width" inside myForm class */
+    /* min-height:82.2vh; */
+    /* display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center; */
+}
+.container h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #000000;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    margin-top: 6%;
+    margin-bottom: 1%;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    /* width:100%; */
+}
+.myInput{
+    width:35%;
+    margin:7px 0;
+    padding:0.7%;
+    font-size: 1rem;
+    border: 1px solid red;
+}
+.btn{
+    padding: 1vh;
+    margin: 2vh;
+    border: 1px solid rgb(0, 0, 0);
+    background: #16fffd;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 22%;
+}
+
+
+/* Resposive */
+
+/* laptop and above : already responsive */
+
+
+/* tablet */
+@media only screen and (min-width:501px) and (max-width:800px){
+    .container {
+        min-height: 238vh;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 252vw;
+        margin: 0px auto;
+    }
+    
+    .myInput {
+        width: 146%;
+        font-size: 2rem;
+    }
+    .btn{
+        width: 146%;
+    }
+}
+
+/* mobile */
+@media only screen and (min-width:301px) and (max-width:500px){
+    .container {
+        min-height: 238vh;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 252vw;
+        margin: 0px auto;
+    }
+    
+    .myInput {
+        width: 146%;
+        font-size: 2rem;
+    }
+    .btn{
+        width: 146%;
+    }
+}
+
+
+/* mobile and less */
+
+@media only screen and (max-width:300px){
+    .container {
+        min-height: 238vh;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 252vw;
+        margin: 0px auto;
+    }
+    
+    .myInput {
+        width: 146%;
+        font-size: 2rem;
+    }
+    .btn{
+        width: 146%;
+    }
+}

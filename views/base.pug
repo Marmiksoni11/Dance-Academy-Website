@@ -1,0 +1,43 @@
+//- //- layout.pug
+//- html
+//-   head
+//-     title My Site - #{title}
+//-     block scripts
+//-       script(src='/jquery.js')
+//-   body
+//-     block content
+//-     block foot
+//-       #footer
+//-         p some footer content
+//- layout.pug
+
+
+
+doctype html
+html
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  head
+    title Harry Dance Acemdemy
+    block style
+      script(src='/jquery.js')
+  body
+    nav.navbar.h-nav-resp
+        ul.ul.v-class-resp 
+            div.logo
+                img(src="../static/images/logo2.png")
+                span HDA      
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/classInfo") Class Info]
+            li #[a(href="/contact") Contact Us]
+        div.burger
+          div.line
+          div.line
+          div.line
+    block content
+    footer#footer 
+        | Copyright 2023 © HarryDanceAcedemy.com | All rights 
+        
+  block scripts
+    script(src='/static/index.js')

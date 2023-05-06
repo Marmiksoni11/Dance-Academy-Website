@@ -1,0 +1,347 @@
+*{
+    padding: 0; 
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #022323;
+}
+h1{
+    font-size:7rem;
+    color: #16fffd;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-size:4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+}
+p{
+    font-size: 3rem;
+    color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+/* laptop and above */
+
+
+@media only screen and (min-width:1024px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 220vh;
+        width: 100vw;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 6%;
+        padding-top: 2%;
+        position: relative;
+        top: 6%;
+        right: 19%;
+        height: 17%;
+        width: 56%;
+        background-color: #16fff233;
+    }
+    .about h1{
+        font-size: 6rem;
+        color:#000000;
+    }
+    .about h2{
+        font-size: 3rem;
+        color:#50ffbc;
+    }
+    .dancer{
+        padding: 0% 0%;
+        position: relative;
+        top: 10%;
+        width: 83%;
+    }
+    .dancer h2{
+        font-size:2.7rem;  
+        margin:1% 0;
+    }
+    .dancer p{
+        font-size: 3.3rem;
+        color: #000000;
+    }
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        width: 77%;
+        position: relative;
+        top: 13%;
+        right: 5%;
+    }
+
+    .numbers h1{
+        font-size:6rem;
+    }
+    .numbers p{
+        font-size:2.3rem;
+    }
+    .num1{
+        display: flex;
+        flex-direction: row;
+        padding: 3% 0%;
+    }
+    .choregraphers{
+        padding:3%;
+    }
+    .students{
+        padding:3%;
+        position: relative;
+        left: 23%;
+    }
+
+    .num2{
+        display: flex;
+        flex-direction: row;
+        padding: 3% 0%;
+    }
+
+    .projects{
+        padding:3%;
+    }
+
+    .hours{
+        padding:3%;
+        position: relative;
+        left: 25%;
+        width: 53%;
+    }
+}
+
+/* mobile and tablets */
+
+@media only screen and (min-width:501px) and (max-width:800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 232vh;
+        width: 249vw;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 6%;
+        position: relative;
+        right: 14%;
+        background-color: #16fff233;
+    }
+    .about h1{
+        color:#000000;
+    }
+    .about h2{
+        color:#50ffbc;
+    }
+    .dancer{
+        width: 87%;
+        padding: 7% 0%;
+    }
+    .dancer h2{
+        font-size:2.7rem;  
+        margin:1% 0;
+    }
+    .dancer p{
+        font-size: 2.3rem;
+        color: #000000;
+    }
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+    }
+    .numbers h1{
+        font-size:6rem;
+    }
+    .numbers p{
+        font-size:2.3rem;
+    }
+    .num1{
+        display: flex;
+        flex-direction: row;
+    }
+    .choregraphers{
+        padding:3%;
+    }
+    .students{
+        padding:3%;
+        position: relative;
+        left: 6%;
+    }
+
+    .num2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .projects{padding:3%;}
+    .hours{
+        padding:3%;
+        position: relative;
+        left: 10%;
+        width: 53%;
+    }
+
+}
+
+/* only mobiles */
+
+@media only screen and (min-width:301px) and (max-width:500px){
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 232vh;
+        width: 249vw;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 6%;
+        position: relative;
+        right: 14%;
+        background-color: #16fff233;
+    }
+    .about h1{
+        color:#000000;
+    }
+    .about h2{
+        color:#50ffbc;
+    }
+    .dancer{
+        width: 87%;
+        padding: 7% 0%;
+    }
+    .dancer h2{
+        font-size:2.7rem;  
+        margin:1% 0;
+    }
+    .dancer p{
+        font-size: 2.3rem;
+        color: #000000;
+    }
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+    }
+    .numbers h1{
+        font-size:6rem;
+    }
+    .numbers p{
+        font-size:2.3rem;
+    }
+    .num1{
+        display: flex;
+        flex-direction: row;
+    }
+    .choregraphers{
+        padding:3%;
+    }
+    .students{
+        padding:3%;
+        position: relative;
+        left: 6%;
+    }
+
+    .num2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .projects{padding:3%;}
+    .hours{
+        padding:3%;
+        position: relative;
+        left: 10%;
+        width: 53%;
+    }
+}
+
+        
+/* less than mobiles */
+
+
+@media only screen and (max-width:300px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 232vh;
+        width: 249vw;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 6%;
+        position: relative;
+        right: 14%;
+        background-color: #16fff233;
+    }
+    .about h1{
+        color:#000000;
+    }
+    .about h2{
+        color:#50ffbc;
+    }
+    .dancer{
+        width: 87%;
+        padding: 7% 0%;
+    }
+    .dancer h2{
+        font-size:2.7rem;  
+        margin:1% 0;
+    }
+    .dancer p{
+        font-size: 2.3rem;
+        color: #000000;
+    }
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+    }
+    .numbers h1{
+        font-size:6rem;
+    }
+    .numbers p{
+        font-size:2.3rem;
+    }
+    .num1{
+        display: flex;
+        flex-direction: row;
+    }
+    .choregraphers{
+        padding:3%;
+    }
+    .students{
+        padding:3%;
+        position: relative;
+        left: 6%;
+    }
+
+    .num2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .projects{padding:3%;}
+    .hours{
+        padding:3%;
+        position: relative;
+        left: 10%;
+        width: 53%;
+    }
+}

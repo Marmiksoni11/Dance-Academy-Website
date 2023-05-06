@@ -1,0 +1,495 @@
+*{
+    padding: 0; 
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    font-size:3rem;
+}
+h2{
+    font-size:2rem;
+}
+p{
+    font-size:1rem;
+}
+
+@media only screen and (min-width:1024px){
+    .sec1{
+        color: rgb(255 255 255);
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background: url(./static/images/exp4.jpg) no-repeat center center/cover;
+        height: 128vh;
+        width: 252%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+    }
+    .sec1 h1{
+        position: relative;
+        top:5%;
+        font-size: 2.9rem;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 328vh;
+        width: 252%;
+    }
+    .headings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 4%;
+        line-height: 1.5;
+        width: 70%;
+    }
+    .headings h1{
+        color:#16fffd;
+        font-size: 4rem;
+    }
+    .headings h2{
+        color:#ffffff;
+        font-size: 2.3rem;
+    }
+
+    .box-1{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 10%;
+        right: 10%;
+    }
+    .box-1 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-1 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    .box-2{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 20%;
+        position: relative;
+        top: 13%;
+        left: 10%;
+    }
+    .box-2 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-2 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    
+    .box-3{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 18%;
+        right: 10%;
+    }
+    .box-3 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-3 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+    .sec3{
+        width: 252%;
+        text-align: center;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+
+@media only screen and (min-width:501px) and (max-width:800px){
+    .sec1{
+        color: rgb(255 255 255);
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background: url(./static/images/exp4.jpg) no-repeat center center/cover;
+        height: 128vh;
+        width: 252%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+    }
+    .sec1 h1{
+        position: relative;
+        top:5%;
+        font-size: 2.9rem;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 328vh;
+        width: 252%;
+    }
+    .headings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 4%;
+        line-height: 1.5;
+        width: 70%;
+    }
+    .headings h1{
+        color:#16fffd;
+        font-size: 4rem;
+    }
+    .headings h2{
+        color:#ffffff;
+        font-size: 2.3rem;
+    }
+
+    .box-1{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 10%;
+        right: 10%;
+    }
+    .box-1 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-1 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    .box-2{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 20%;
+        position: relative;
+        top: 13%;
+        left: 10%;
+    }
+    .box-2 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-2 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    
+    .box-3{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 18%;
+        right: 10%;
+    }
+    .box-3 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-3 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+    .sec3{
+        width: 252%;
+        text-align: center;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+
+@media only screen and (min-width:301px) and (max-width:500px){
+
+    .sec1{
+        color: rgb(255 255 255);
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background: url(./static/images/exp4.jpg) no-repeat center center/cover;
+        height: 128vh;
+        width: 252%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+    }
+    .sec1 h1{
+        position: relative;
+        top:5%;
+        font-size: 2.9rem;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 328vh;
+        width: 252%;
+    }
+    .headings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 4%;
+        line-height: 1.5;
+        width: 70%;
+    }
+    .headings h1{
+        color:#16fffd;
+        font-size: 4rem;
+    }
+    .headings h2{
+        color:#ffffff;
+        font-size: 2.3rem;
+    }
+
+    .box-1{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 10%;
+        right: 10%;
+    }
+    .box-1 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-1 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    .box-2{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 20%;
+        position: relative;
+        top: 13%;
+        left: 10%;
+    }
+    .box-2 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-2 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    
+    .box-3{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 18%;
+        right: 10%;
+    }
+    .box-3 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-3 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+    .sec3{
+        width: 252%;
+        text-align: center;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+}
+
+
+@media only screen and (max-width:300px){
+    .sec1{
+        color: rgb(255 255 255);
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background: url(./static/images/exp4.jpg) no-repeat center center/cover;
+        height: 128vh;
+        width: 252%;
+        right: 0%;
+        background-color: rgb(0, 0, 0);
+    }
+    .sec1 h1{
+        position: relative;
+        top:5%;
+        font-size: 2.9rem;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 328vh;
+        width: 252%;
+    }
+    .headings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 4%;
+        line-height: 1.5;
+        width: 70%;
+    }
+    .headings h1{
+        color:#16fffd;
+        font-size: 4rem;
+    }
+    .headings h2{
+        color:#ffffff;
+        font-size: 2.3rem;
+    }
+
+    .box-1{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 10%;
+        right: 10%;
+    }
+    .box-1 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-1 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    .box-2{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 20%;
+        position: relative;
+        top: 13%;
+        left: 10%;
+    }
+    .box-2 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-2 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+
+    
+    .box-3{
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        position: relative;
+        top: 18%;
+        right: 10%;
+    }
+    .box-3 img{
+        height: 80%;
+        width: 100%;
+    }
+    .box-3 p{
+        font-size: 3rem;
+        padding: 17%;
+        color: antiquewhite;
+    }
+    .sec3{
+        width: 252%;
+        text-align: center;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}

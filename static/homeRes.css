@@ -1,0 +1,525 @@
+
+
+/*Resposive*/
+
+
+/* laptop and above */
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    .navbar {
+        padding-left: 17%;
+    }
+
+    .box1{
+        margin: 0rem 0rem;
+        top: 10%;
+    }
+    .box1 p {
+        font-size: 1.2rem;
+        margin: 0rem 25%;
+        left: 23%;
+    }
+    .box1 .card1 {
+        width: 22rem;
+        height: 7em;
+        left: 10%;
+    }
+
+    .box2{
+        margin: 0rem 0rem;
+        top: 21%;
+    }
+    .box2 p {
+        font-size: 1.2rem;
+        margin: 0rem 25%;
+        right: 21%;
+    }
+    .box2 .card2 {
+        width: 22rem;
+        height: 7em;
+        left: 58%;
+    }
+
+    .box3{
+        margin: 0rem 0rem;
+        top: 33%;
+    }
+    .box3 p {
+        font-size: 1.2rem;
+        margin: 0rem 25%;
+        left: 23%;
+    }
+    .box3 .card3 {
+        width: 22rem;
+        height: 7em;
+        left: 10%;
+    }
+
+}
+
+
+/* tablets */
+
+
+@media only screen and (min-width:501px) and (max-width:800px){
+    .navbar{
+        width: 252vw;
+        height: 55rem;
+        transition: all 0.5s ease-out;
+    }
+    .ul {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 0.1s ease-out;
+    }
+    .navbar li {
+        padding: 3.5rem;
+    }
+    .navbar li a{
+        font-size: 2.12rem;
+    }
+    .logo{
+        right: 0;
+    }
+    .logo img {
+        height: 5.5rem;
+    }
+
+    #introSection {
+        width: 252vw;
+        height: 174vh;
+    }
+
+    .big {
+        width: 84%;
+    }
+
+
+    #missionSection {
+        width: 252vw;
+        height: 330vh;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 4%;
+    }
+
+    .card1 img {
+        left: 1rem;
+    }
+
+    .box1 .card1 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box1 p {
+        top: 90%;
+        left: 0;
+        font-size: 2rem;
+        width: 177vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+    
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 9%;
+    }
+
+    .card2 img {
+        left: 1rem;
+    }
+
+    .box2 .card2 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box2 p {
+        top: 90%;
+        left: 0;
+        font-size: 2rem;
+        width: 199vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 13%;
+    }
+
+    .card3 img {
+        left: 1rem;
+    }
+
+    .box3 .card3 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box3 p {
+        top: 90%;
+        left: 0;
+        font-size: 2rem;
+        width: 199vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+
+    #sponsorSection {
+        height: 26vh;
+        width: 252vw;
+    }
+
+    #sponsors {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sponsors img {
+        height: 67%;
+        margin: 22px;
+        left: 0;
+        top: 0;
+    }   
+    #footer{
+        width: 252vw;
+    }   
+
+    /* burger */
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        width: 252vw;
+        height: 6rem;
+    }
+    .v-class-resp {
+       opacity: 0;     
+    }
+    
+}
+
+
+/* mobiles */
+
+
+@media only screen and (min-width:301px) and (max-width:500px){
+    .navbar{
+        width: 252vw;
+        height: 55rem;
+        transition: all 0.5s ease-out;
+    }
+    .ul {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 0.1s ease-out;
+    }
+    .navbar li {
+        padding: 3.5rem;
+    }
+    .navbar li a{
+        font-size: 2.12rem;
+    }
+    .logo{
+        right: 0;
+    }
+    .logo img {
+        height: 5.5rem;
+    }
+
+    #introSection {
+        width: 252vw;
+        height: 174vh;
+    }
+
+    .big {
+        width: 84%;
+    }
+
+
+    #missionSection {
+        width: 252vw;
+        height: 330vh;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 4%;
+    }
+
+    .card1 img {
+        left: 1rem;
+    }
+
+    .box1 .card1 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box1 p {
+        top: 90%;
+        left: 0;
+        font-size: 1.5rem;
+        width: 177vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+    
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 9%;
+    }
+
+    .card2 img {
+        left: 1rem;
+    }
+
+    .box2 .card2 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box2 p {
+        top: 90%;
+        left: 0;
+        font-size: 1.5rem;
+        width: 199vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 13%;
+    }
+
+    .card3 img {
+        left: 1rem;
+    }
+
+    .box3 .card3 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box3 p {
+        top: 90%;
+        left: 0;
+        font-size: 1.5rem;
+        width: 199vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+
+    #sponsorSection {
+        height: 26vh;
+        width: 252vw;
+    }
+
+    #sponsors {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sponsors img {
+        height: 67%;
+        margin: 22px;
+        left: 0;
+        top: 0;
+    }   
+    #footer{
+        width: 252vw;
+    }   
+
+    /* burger */
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        width: 252vw;
+        height: 6rem;
+    }
+    .v-class-resp {
+       opacity: 0;     
+    }
+}
+
+
+
+
+
+/* less than mobile size */
+
+@media only screen and (max-width:300px){
+    .navbar{
+        width: 252vw;
+        height: 55rem;
+        transition: all 0.5s ease-out;
+    }
+    .ul {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 0.1s ease-out;
+    }
+    .navbar li {
+        padding: 3.5rem;
+    }
+    .navbar li a{
+        font-size: 2.12rem;
+    }
+    .logo{
+        right: 0;
+    }
+    .logo img {
+        height: 5.5rem;
+    }
+
+    #introSection {
+        width: 252vw;
+        height: 174vh;
+    }
+
+    .big {
+        width: 84%;
+    }
+
+
+    #missionSection {
+        width: 252vw;
+        height: 330vh;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 4%;
+    }
+
+    .card1 img {
+        left: 1rem;
+    }
+
+    .box1 .card1 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box1 p {
+        top: 90%;
+        left: 0;
+        font-size: 1.3rem;
+        width: 177vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+    
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 9%;
+    }
+
+    .card2 img {
+        left: 1rem;
+    }
+
+    .box2 .card2 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box2 p {
+        top: 90%;
+        left: 0;
+        font-size: 1.3rem;
+        width: 199vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        top: 13%;
+    }
+
+    .card3 img {
+        left: 1rem;
+    }
+
+    .box3 .card3 {
+        width: 32rem;
+        height: 10em;
+    }
+    .box3 p {
+        top: 90%;
+        left: 0;
+        font-size: 1.3rem;
+        width: 199vw;
+        /* margin: 0rem 0%; */
+        margin-top: 21rem;
+        text-align: center;
+    }
+
+
+    #sponsorSection {
+        height: 26vh;
+        width: 252vw;
+    }
+
+    #sponsors {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sponsors img {
+        height: 67%;
+        margin: 22px;
+        left: 0;
+        top: 0;
+    }   
+    #footer{
+        width: 252vw;
+    }   
+
+    /* burger */
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        width: 252vw;
+        height: 6rem;
+    }
+    .v-class-resp {
+       opacity: 0;     
+    }
+}
