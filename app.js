@@ -59,10 +59,10 @@ app.get('/classInfo',(req,res)=>{
     const params = {}
     res.status(200).render('./classInfo.pug',params)
 })
-app.get('/services',(req,res)=>{
-    const params = {}
-    res.status(200).render('./services.pug',params)
-})
+// app.get('/services',(req,res)=>{
+//     const params = {}
+//     res.status(200).render('./services.pug',params)
+// })
 
 
 
