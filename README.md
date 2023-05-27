@@ -4,7 +4,7 @@ Developed a user-friendly website for a Dance Academy  Multiple Features.
 
 Features Include :- 
 
-Multiple pages : Home, Services, Contact Us, About Us & Class Info.
+Multiple pages : Home, Contact Us, About Us & Class Info.
 
 Hamburger Menu 
 
