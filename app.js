@@ -17,7 +17,7 @@ const { StringDecoder } = require('string_decoder');
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/contactDance');
+  await mongoose.connect('mongodb://......./contactDance');
     console.log("connected to local host");
 }
 
